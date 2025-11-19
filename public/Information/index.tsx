@@ -85,6 +85,46 @@ const Information: React.FC = () => {
                       </div>
                     </div>
                   </div>
+                  <div className="flex flex-col gap-6 w-[418px] justify-between border border-[#DEDEE3] bg-white rounded-[10px] py-6 px-[14px]">
+                    <div className="flex gap-4 w-full justify-between">
+                      <div>
+                        <p className="font-semibold text-[16px] text-[#2F3639]">
+                          Garden Heights #101
+                        </p>
+                        <div className="flex gap-1 items-center">
+                          <IoLocationOutline />
+                          <p className="text-[#676C6C] text-[13px] font-light">
+                            5678 Park Avenue, Miami, FL 33142
+                          </p>
+                        </div>
+                      </div>
+                      <button className="w-fit h-[22px] bg-[#E5A23C] rounded-[20px] px-[12px] items-center">
+                        <p className="text-white text-[12px] font-bold">
+                          Vacant
+                        </p>
+                      </button>
+                    </div>
+                    <div>
+                      <div className="flex items-center">
+                        <div className="w-[50%]">
+                          <p className="text-[#676C6C] text-[12px] font-light">
+                            Rent:
+                          </p>
+                          <p className="text-[#2F3639] text-[12px] font-medium">
+                            N5,657,896/mo
+                          </p>
+                        </div>
+                        <div>
+                          <p className="text-[#676C6C] text-[12px] font-light">
+                            Tenant:
+                          </p>
+                          <p className="text-[#2F3639] text-[12px] font-medium">
+                            Vacant
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             )}

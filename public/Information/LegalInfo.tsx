@@ -13,7 +13,7 @@ const LegalInfo: React.FC = () => {
     { key: 'taxid', label: 'Tax Id' },
     { key: 'zoning', label: 'Zoning' },
     { key: 'deeds', label: 'Deeds' },
-    { key: 'lien', label: 'Liens' },
+    { key: 'lien', label: 'Lien' },
     { key: 'permits', label: 'Permits' },
   ];
   return (

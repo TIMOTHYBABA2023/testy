@@ -33,12 +33,12 @@ const Overview: React.FC = () => {
 
         <div className="w-[36%] h-[370px] border border-[#DEDEE3] rounded-[10px] px-5 py-[14px] flex flex-col gap-3">
           <div>
-            <p className="text-[#2C2E33] font-semibold">Home Owner</p>
+            <p className="text-[#2C2E33] font-semibold">Current tenant</p>
           </div>
           <div>
-            <p className="text-[#676C6C] font-light text-[12px]">Owner' name</p>
+            <p className="text-[#676C6C] font-light text-[12px]">Tenant name</p>
             <p className="text-[#2F3639] font-medium text-[12px]">
-              Winner Daniel
+              Sarah Johnson
             </p>
           </div>
           <div>

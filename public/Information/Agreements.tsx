@@ -4,6 +4,7 @@ import { FiEye, FiDownload, FiLink } from "react-icons/fi";
 const Agreements:React.FC = () => {
   const [activeTab, setActiveTab] = useState("all");
 
+  // Agreements data
   const agreements = [
     {
       id: 1,
